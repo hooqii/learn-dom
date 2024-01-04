@@ -11,7 +11,7 @@ function increment() {
 }
 
 function decrement() {
- ` let currentNumber = parseInt(number.innerHTML);`
+  let currentNumber = parseInt(number.innerHTML);
   if (currentNumber > 0) {
     currentNumber -= 1;
     number.innerHTML = currentNumber;
